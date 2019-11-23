@@ -3,13 +3,13 @@
 public class main {
 
     public static void main(String args[]){
-        foo();
+        mult();
     }
 
-    private static void foo(){
+    private static void mult(){
         int x = getIntX();
         int y = getIntY();
-        graph(x, y);
+        print(x, y);
     }
 
     private static int getIntX(){
@@ -20,7 +20,7 @@ public class main {
         return 4;
     }
 
-    private static void graph(int a, int b){
+    private static void print(int a, int b){
         System.out.println(a*b);
     }
 }
