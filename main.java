@@ -6,12 +6,6 @@ public class main {
         foo();
     }
 
-    private static void foo(){
-        int x = getIntX();
-        int y = getIntY();
-        graph(x, y);
-    }
-
     private static int getIntX(){
         return 5;
     }
@@ -23,4 +17,12 @@ public class main {
     private static void graph(int a, int b){
         System.out.println(a*b);
     }
+
+    private static void foo(){
+        int x = getIntX();
+        int y = getIntY();
+	x=x*x;
+        graph(x, y);
+    }
+
 }
