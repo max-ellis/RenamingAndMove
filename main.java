@@ -7,16 +7,16 @@ public class main {
     }
 
     private static void mult(){
-        int x = getIntX();
-        int y = getIntY();
+        int x = getX();
+        int y = getY();
         print(x, y);
     }
 
-    private static int getIntX(){
+    private static int getX(){
         return 5;
     }
 
-    private static int getIntY(){
+    private static int getY(){
         return 4;
     }
 
