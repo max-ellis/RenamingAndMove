@@ -6,6 +6,12 @@ public class main {
         mult();
     }
 
+    private static void mult(){
+        int x = getIntX();
+        int y = getIntY();
+        print(x, y);
+    }
+
     private static int getIntX(){
         return 5;
     }
@@ -18,12 +24,6 @@ public class main {
         System.out.println(a*b);
     }
 
-    private static void mult(){
-        int x = getIntX();
-        int y = getIntY();
-	x=x*x;
-        print(x, y);
-    }
 
 }
 
