@@ -3,25 +3,7 @@
 public class main {
 
     public static void main(String args[]){
-        mult();
-    }
-
-    private static void mult(){
-        int x = getIntX();
-        int y = getIntY();
-        print(x, y);
-    }
-
-    private static int getIntX(){
-        return 5;
-    }
-
-    private static int getIntY(){
-        return 4;
-    }
-
-    private static void print(int a, int b){
-        System.out.println(a*b);
+        helper.mult();
     }
 
 
@@ -30,4 +12,22 @@ public class main {
 
 class helper {
 
+    public static void mult(){
+        int x = getX();
+        int y = getY();
+	x = x*x;
+        graph(x, y);
+    }
+
+    public static void graph(int a, int b){
+        System.out.println(a*b);
+    }
+
+    public static int getX(){
+        return 5;
+    }
+
+    public static int getY(){
+        return 4;
+    }
 }
