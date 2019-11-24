@@ -7,18 +7,12 @@ public class main {
     }
 
     private static void mult(){
-        int x = getIntX();
-        int y = getIntY();
+	helper h = new helper();
+        int x = h.getIntX();
+        int y = h.getIntY();
         print(x, y);
     }
 
-    private static int getIntX(){
-        return 5;
-    }
-
-    private static int getIntY(){
-        return 4;
-    }
 
     private static void print(int a, int b){
         System.out.println(a*b);
@@ -30,4 +24,11 @@ public class main {
 
 class helper {
 
+    public static int getIntX(){
+        return 5;
+    }
+
+    public static int getIntY(){
+        return 4;
+    }
 }
