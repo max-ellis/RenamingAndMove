@@ -24,3 +24,8 @@ public class main {
         System.out.println(a*b);
     }
 }
+
+
+class helper {
+
+}
