@@ -7,27 +7,27 @@ public class main {
     }
 
 
-
 }
 
 
 class helper {
 
     public static void mult(){
-        int x = getIntX();
-        int y = getIntY();
-        print(x, y);
+        int x = getX();
+        int y = getY();
+	x = x*x;
+        graph(x, y);
     }
 
-    public static void print(int a, int b){
+    public static void graph(int a, int b){
         System.out.println(a*b);
     }
 
-    public static int getIntX(){
+    public static int getX(){
         return 5;
     }
 
-    public static int getIntY(){
+    public static int getY(){
         return 4;
     }
 }
